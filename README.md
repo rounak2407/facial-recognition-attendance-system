@@ -45,7 +45,7 @@ pip install -r requirements.txt
 All scripts under `src/core/` use a base directory path `BASE_DIR` that must be updated according to your machine:
 
 ```python
-BASE_DIR = "/absolute/path/to/PresenSee"
+BASE_DIR = "/absolute/path/to/PresenSee"   #everyone has different path
 ```
 
 Make sure to replace it in:

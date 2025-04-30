@@ -3,7 +3,7 @@ import os
 import time
 
 # Define paths
-BASE_DIR = "/absolute/path/to/PresenSee/"
+BASE_DIR = "/absolute/path/to/PresenSee/"    #define your own path
 HAARCASCADE_PATH = os.path.join(
     BASE_DIR, "models", "haarcascade_frontalface_default.xml")
 USER_DATA_PATH = os.path.join(BASE_DIR, "dataset", "users")
